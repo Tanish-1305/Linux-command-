@@ -1,0 +1,74 @@
+@@ -0,0 +1,197 @@
+# Essential Linux Commands
+
+## **1. `ls`**
+List directory contents.
+- Example: `ls -l` (detailed listing)
+
+## **2. `cd`**
+Change directory.
+- Example: `cd /home` (navigate to `/home`)
+
+## **3. `pwd`**
+Print working directory.
+- Example: `pwd` (shows the current directory)
+
+## **4. `cp`**
+Copy files or directories.
+- Example: `cp source.txt destination.txt`
+
+## **5. `mv`**
+Move or rename files or directories.
+- Example: `mv oldname.txt newname.txt`
+
+## **6. `rm`**
+Remove files or directories.
+- Example: `rm file.txt` (removes a file)
+- For directories: `rm -r directory_name`
+
+## **7. `mkdir`**
+Create directories.
+- Example: `mkdir new_directory`
+
+## **8. `rmdir`**
+Remove empty directories.
+- Example: `rmdir empty_directory`
+
+## **9. `touch`**
+Create an empty file or update the timestamp of an existing file.
+- Example: `touch newfile.txt`
+
+## **10. `cat`**
+Concatenate and display file content.
+- Example: `cat file.txt`
+
+## **11. `man`**
+Show manual pages for commands.
+- Example: `man ls` (opens the manual for `ls`)
+
+## **12. `chmod`**
+Change file permissions.
+- Example: `chmod 755 script.sh`
+
+## **13. `chown`**
+Change file owner.
+- Example: `chown user:group file.txt`
+
+## **14. `sudo`**
+Run a command as superuser (admin).
+- Example: `sudo apt-get update`
+
+## **15. `apt-get`**
+Install, update, and remove packages (Debian-based systems).
+- Example: `sudo apt-get install package_name`
+
+## **16. `ps`**
+Display current processes.
+- Example: `ps aux`
+
+## **17. `kill`**
+Terminate a process by PID.
+- Example: `kill 1234` (where 1234 is the process ID)
+
+## **18. `grep`**
+Search for a specific pattern in files.
